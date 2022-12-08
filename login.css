@@ -1,0 +1,110 @@
+body{
+    background-image: url('bgimg.jpg');
+    height: 950px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;}
+    .logo{
+        float: left;
+        padding: 0px;
+        margin: 0px;
+
+    
+    }
+    .log{
+        float: left;
+        height: 60px;
+        width: 75px;
+    }
+    .heading{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-top: 15px;
+       width: 50%;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0px;
+        
+    }
+    li{
+        padding: 0%;
+        margin-top: 100px;
+        border: 0px;
+        float: right;
+        
+        font-style: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        padding: 14px 16px;
+        color: #000;
+        margin-top: -166px;
+        
+    }
+     a.ho:hover {
+        background-color:darkseagreen;
+        
+      } 
+      .corner{
+        float: inline-start;
+      }
+
+.bottum{
+     padding-left: 48%;
+     
+     
+     width: 100px;
+     
+     margin-top: 238px;
+   
+}
+
+/* .formm{
+    height: 400px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    
+} */
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+  	font-size: 15px;
+    padding: 197px 726px 0px 0px;
+    
+}
+.login-form form {
+    margin-bottom: 15px;
+    background:transparent
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); 
+    padding: 30px;
+    border-style:solid;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+form{
+    height: 350px;
+    
+
+}
+.createacc{
+    padding-top: 111px;
+}
+ .form-group{
+    margin-bottom: 5px;
+} 
+footer{
+    padding-top: 64px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="logo"></div>
+            <img src="./hhlogo.jpg" alt="" class="log">
+           <h2 class="heading"> HealthyHigh</h2>
+          
+           <div class="corner"> 
+           <ul>
+            <li><a class="ho" href="home.html">Home</a> </li>
+            <li><a class="ho" href="reg.html"> Register</a></li>
+            
+           </ul>
+        </div>
+        </header>
+        <div class="login-form">
+            <form  method="post">
+                <h2 class="text-center">Log in</h2>       
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" required="required" id="name">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="required" id="pwd">
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="login()" class="btn btn-primary btn-block">Log in</button>
+                </div>
+                <div class="clearfix">
+                    <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
+                   
+                </div>        
+            </form>
+            <a href="#" class="float-right">Forgot Password?</a> 
+            <a href="#" class="createacc">Create an Account</a>
+        </div>
+        
+     
+
+        <footer><div class="bottum"> © dev 2022</div></footer>
+    </div>
+    <script>
+   function login()
+   {
+    var uname=document.getElementById("name").value;
+    var pass=document.getElementById("pwd").value;
+    if(uname=="Ajay" && pass=="password")
+    {
+        alert("Login successful \n"+ "Welcome" + uname);
+        // window.location.href="welcome.html?name="+uname;
+        window.location.href="welcome.html?name="+uname;
+    
+    }
+    else{
+        alert("Something went wrong");
+    }
+   }
+    </script>
+</body>
+</html>
